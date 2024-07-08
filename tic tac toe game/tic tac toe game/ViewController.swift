@@ -70,13 +70,13 @@ class ViewController: UIViewController {
             lable.isHidden = true
             
             for i in 1...9 {
-                let button = view.viewWithTag(i) as! UIButton
-                //button.setImage(UIImage(named: "leftArrow.png"), for: UIControl.State())
-                //button.setImage(UIImage(named: "Blank.png"), for: UIControl.State())
-                // button.setImage(nil, for: UIControl.State())
+                 let button = view.viewWithTag(i) as! UIButton
+                    //button.setImage(UIImage(named: "leftArrow.png"), for: UIControl.State())
+                    //button.setImage(UIImage(named: "Blank.png"), for: UIControl.State())
+                    //button.setImage(nil, for: UIControl.State())
+                    
                 
-                                        
-                                        }
+            }
         }
         override func viewDidLoad() {
             super.viewDidLoad()
